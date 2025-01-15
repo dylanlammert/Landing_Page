@@ -1,0 +1,158 @@
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+
+}
+
+/* background color style */
+.background { 
+    background-color: #1F2937;
+}
+
+/* layout for each section */ 
+
+.layout { 
+    outline: 2px solid red;
+    height: auto;
+    width: auto;
+}
+.headersection { 
+    height: 48px;
+    width: auto;
+    background-color: #1F2937;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* outline: 2px solid red; */
+    padding: 0px 182px;
+    align-items: center;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 182px;
+    width: auto;
+    height: 500px;
+    background-color: #1F2937;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+}
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: fit-content;
+    width: 50%;
+
+}
+
+.ctaMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: #3882F6;
+    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+    padding: 8px 24px;
+    margin: 0;
+}
+
+.herocard {
+    overflow: hidden;
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+img {
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+    
+}
+
+/* Start of feature section */ 
+
+.feature {
+    height: 432px;
+    width: fill;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.testimonial { 
+    height: 432px; 
+    width: 100%;
+    background-color: #E5E7EB;
+}
+
+.cta { 
+    height: 432px;
+    width: 100%; 
+}
+
+.footer { 
+   height: 48px;
+   width: 100%;
+   background-color: #1F2937;
+}
+
+.flex { 
+    display: flex;
+    flex-direction: row;
+
+}
+/* text Styles */ 
+
+h1 { 
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+
+}
+h3 {
+    color: white;   
+}
+h1, h2, h3, h4, h5, p, a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+.whitetext {
+    color: #E5E7EB;
+}
+.heroSec, .headerlink {
+    font-size: 18px;
+    color:#E5E7EB
+}
+
+.headerLogo {
+    font-size: 24px;
+    color: #f9faf8;
+}
