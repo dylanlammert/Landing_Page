@@ -22,9 +22,9 @@
         <!--navigation menu-->
         <div class= "headerlink" >
             <ul>
-                <li> <a href=""> About </a></li>
-                <li> <a href=""> Meet the team </a></li>
-                <li> <a href=""> Join the Program </a></li>
+                <li> <a href=""> <p>About</p> </a></li>
+                <li> <a href=""> <p>Meet the team</p> </a></li>
+                <li> <a href=""> <p>Join the Program</p> </a></li>
             </ul>
         </div>
     </div>
@@ -62,7 +62,7 @@
             
             <!--Image-->
             <div class="herocard">
-               <img src="./Images/arteum-ro-7H41oiADqqg-unsplash.jpg" alt="Image of lush green trees surronding a road.">
+               <img src="./Images/arteum-ro-7H41oiADqqg-unsplash.jpg" alt="A centered image of an eye.">
             </div>
         
         </div> 
@@ -72,66 +72,67 @@
     
 
     <!--Feature Section-->
-    <div class="feature layout flex">
+    <div class="featureSection">
+
         <!--top Heading-->
         <div class="flex">
-            <h2> Some Random Information.</h2>
+            <h2> Some Random Information</h2>
         </div>
         
         <!--bottom Grid-->
-        <div>
+        <div class= "gridContainer">
 
             <!--First Column-->
-            <div>
+            <div class="itemContainer">
                 <!--image-->
-                <div>
+                <div class="card">
 
                 </div>
                 <!--Text-->
                 <div>
-                    This is some subtext under an illustration or image
+                    <p>This is some subtext under an illustration or image</p>
                 </div>
             </div>
 
 
             <!--second Column-->
-            <div>
+            <div class="itemContainer">
 
                 <!--image-->
-                <div>
+                <div class="card">
 
                 </div>
 
                 <!--Text-->
                 <div>
-                    This is some subtext under an illustration or image
+                    <p>This is some subtext under an illustration or image</p>
                 </div>
 
             </div>
 
 
             <!--third Column-->
-            <div>
+            <div class="itemContainer">
                 <!--image-->
-                <div>
+                <div class="card">
 
                 </div>
                 <!--Text-->
                 <div>
-                    This is some subtext under an illustration or image
+                    <p>This is some subtext under an illustration or image</p>
                 </div>
             </div>
 
 
             <!--fourth Column-->
-            <div>
+            <div class="itemContainer">
                 <!--image-->
-                <div>
+                <div class="card">
 
                 </div>
                 <!--Text-->
                 <div>
-                    This is some subtext under an illustration or image
+                    <p>This is some subtext under an illustration or image</p>
                 </div>
             </div>
         </div>
@@ -140,45 +141,55 @@
     <!--Testimonial Section-->
     <div class="testimonial">
         <!--quote-->
-        <div>
+        <div class="quoteContainer">
+            <div>
+                <h3 class="quoteText"> This is an inspiring quote from a customer. Maye it's just
+                    filling up space, maybe people will actually read it. Who
+                    Knows? All I know is that it looks nice. 
+                </h3>
+            </div>
 
-        </div>
-
-        <!--author-->
-        <div>
-
+            <!--author-->
+            <div style="text-align: right;">
+                <p>- Thor, God of Thunder</p>
+            </div>
         </div>
     </div>
 
     <!--Call to Action Feature Section-->
-    <div class="cta">
+    <div class="ctaSection">
 
-        <!--card-->
-        <div>
+        <!--banner-->
+        <div class="banner">
             <!--left column-->
-            <div>
+            <div clas="textContainer">
                 <!--cta heading-->
-                <div>
-
+                <div style="font-weight: bold;">
+                    <h3>Call to action!! It's time!</h3>
                 </div>
 
                 <!--cta copy-->
-                <div>
-
+                <div style="font-weight: lighter;">
+                    <p>Sign up for our productby clicking that button on the right!</p>
                 </div>
             </div>
 
             <!--Right column button-->
-            <div>
-
-            </div>
+            <a href="" style="width: fit-content;">
+                <div class="ctaMain inverse">
+                    <p>Sign up</p>
+                </div>
+            </a>
         </div>
 
     </div>
 
     <!--Footer-->
     <div class="footer">
-
+        <p class="whitetext">Photo by <a href="https://unsplash.com/@arteum?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" class="attributeLinks">Arteum.ro</a> on <a href="https://unsplash.com/photos/person-showing-green-and-black-eyelid-closeup-photography-7H41oiADqqg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" class="attributeLinks">Unsplash</a>
+        </p>
     </div>
+
+    <!-- This website was made by Dylan Lammert while follow The Odin Project assignments-->
 </body>
 </html>
